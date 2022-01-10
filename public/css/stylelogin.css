@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none
+}
+
+body{
+    background: url(https://centropop.ib.itaborai.rj.gov.br/img/BACKGROUND.png);
+    width: 100%;
+    height: 100%;
+}
+
+/* ------------------------- MENU TOOLBAR ------------------------- */
+/* ---------------------------------------------------------------- */
+/* -----------------------↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓---------------------- */
+
+.toolbar {
+    top: 0px;
+    height: 49px;
+    background: #fff;
+    padding: .5rem 1rem;
+    border-bottom: 3px solid #E07828;
+    width: 100%;
+    z-index: 1;
+}
+
+.toolbar-container {
+    display: flex;
+    max-width: 980px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brasao-prefeitura-toolbar a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    text-decoration: none;
+}
+
+.brasao-prefeitura-toolbar img {
+    width: 2.1rem;
+}
+
+.brasao-prefeitura-toolbar .p-menu {
+    color: #004e90;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: bolder;
+    font-size: .75rem;
+}
+
+.toolbar-menu {
+    display: flex;
+    align-items: center;
+}
+
+.toolbar-menu a {
+    display: flex;
+    gap: .5rem;
+    text-decoration: none;
+}
+
+.toolbar-menu img {
+    width: 1rem;
+}
+
+.toolbar-menu .p-menu {
+    color: #004e90;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: .75rem;
+}
+
+.brasao-prefeitura-toolbar p {
+    color: #004e90;
+}
+
+.separador {
+    width: 0;
+    height: 20px;
+    border: 1px solid #004e90;
+    margin: 0 1rem 0 1rem;
+}
+
+.toolbar-menu .lupa {
+    width: .7rem;
+}
+
+.toolbar-menu div :hover {
+    opacity: 90%;
+    transition: cubic-bezier(1, 0, 0, 1);
+}
+
+/* --------------------------- FIM --------------------------------- */
+
+.container-menu{
+    margin-top: 50px;
+    margin-bottom: 23px;
+}
+
+.box-login {
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-box-msg{
+    font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: normal;
+    padding: 0 20px 20px;
+   font-size: 16px;
+   text-align: center;
+}
+
+.logo-atendente{
+    width: 195px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+.logar{
+    padding: 50px 30px;
+    border: 1px solid rgb(228, 228, 228);
+    background-color: rgb(255, 255, 255);
+}
+
+.container-menu form{
+   display: flex;
+   flex-direction: column;
+}
+
+.container-menu input{
+    font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    margin-top: 8px;
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.button-acessar{
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 250px;
+    height: 40px;
+    padding: 5px;
+    color: white;
+    background-color: #004e90;
+    border: 1.5px solid rgb(37, 32, 32);
+    border-radius: 0.25rem;
+}
+
+.button-acessar:hover{
+    background: linear-gradient(to right, #085696, #0c5997)
+}
+
+
+/* --------------------------- FOOTER ----------------------------- */
+/* ---------------------------------------------------------------- */
+/* -----------------------↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓---------------------- */
+
+
+.footer {
+    height: 92px;
+    background: #004e90;
+    border-top: 3px solid #E07828;
+    width: 100%;
+}
+
+.container-footer {
+    max-width: 980px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+.brasao-prefeitura-footer {
+    display: flex;
+    align-items: center;
+}
+
+.brasao-prefeitura-footer img {
+    width: 4rem;
+    margin-right: 2rem;
+}
+
+.brasao-prefeitura-footer span {
+    display: flex;
+    color: #FFF;
+    padding: .5rem 1rem;
+    border-left: 2px solid #FFF;
+    margin-top: 5px;
+    font-size: .8rem;
+    align-items: center;
+}
+

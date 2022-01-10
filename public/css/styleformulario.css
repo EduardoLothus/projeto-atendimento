@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none
+}
+
+
+
+/* ------------------------- MENU TOOLBAR ------------------------- */
+/* ---------------------------------------------------------------- */
+/* -----------------------↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓---------------------- */
+
+.toolbar {
+    top: 0px;
+    height: 49px;
+    background: #fff;
+    padding: .5rem 1rem;
+    border-bottom: 3px solid #E07828;
+    width: 100%;
+    z-index: 1;
+}
+
+.toolbar-container {
+    display: flex;
+    max-width: 980px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brasao-prefeitura-toolbar a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    text-decoration: none;
+}
+
+.brasao-prefeitura-toolbar img {
+    width: 2.1rem;
+}
+
+.brasao-prefeitura-toolbar .p-menu {
+    color: #004e90;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: bolder;
+    font-size: .75rem;
+}
+
+.toolbar-menu {
+    display: flex;
+    align-items: center;
+}
+
+.toolbar-menu a {
+    display: flex;
+    gap: .5rem;
+    text-decoration: none;
+}
+
+.toolbar-menu img {
+    width: 1rem;
+}
+
+.toolbar-menu .p-menu {
+    color: #004e90;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: .75rem;
+}
+
+.brasao-prefeitura-toolbar p {
+    color: #004e90;
+}
+
+.separador {
+    width: 0;
+    height: 20px;
+    border: 1px solid #004e90;
+    margin: 0 1rem 0 1rem;
+}
+
+.toolbar-menu .lupa {
+    width: .7rem;
+}
+
+.toolbar-menu div :hover {
+    opacity: 90%;
+    transition: cubic-bezier(1, 0, 0, 1);
+}
+
+.header{
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: #004e90;
+
+}
+
+.header h2{
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+/* --------------------------- FIM --------------------------------- */
+
+/* ------------------------- MENU FORM ------------------------- */
+/* ---------------------------------------------------------------- */
+/* -----------------------↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓---------------------- */
+
+.container-menu{
+    background-color: #E07828;
+}
+
+.ins-aviso{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #005eac;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid #dddddd;
+    background-color: #efefef;
+    width: 88%;
+    height: 50px;
+}
+
+.ins-aviso h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.base{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 88%;
+    height: 90vh;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.info label{
+    color: rgb(43, 43, 43);
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border-radius: 4px;
+    padding: 8px;
+    border: 1px solid rgb(151, 151, 151);
+}
+
+.info select{
+    margin-bottom: 9px;
+    border-radius: 4px;
+    border: 1px solid rgb(75, 75, 75);
+}
+
+.base-info{
+    display: flex;
+}
+
+.email{
+    margin-right: 30px;
+}
+
+.email input{
+    width: 280px;
+}
+
+
+.telefone input{
+    width: 240;
+}
+
+.cpf-rep{
+    margin-top: 14px;
+    margin-right: 30px;
+}
+
+.cpf-rep input{
+
+}
+
+.nome-rep{
+    margin-top: 14px;
+}
+
+.nome-rep input{
+    width: 380;
+}
+
+.cnpj-cont{
+    margin-top: 14px;
+    margin-right: 30px;
+}
+
+.cnpj-cont input{
+
+}
+
+.razao-soc{
+    margin-top: 14px;
+}
+
+.razao-soc input{
+    width: 380;
+}
+
+.base-2{
+    display: flex;
+}
+
+.base-3{
+    display: flex;
+    justify-content: space-between;
+}
+
+#data-disponivel{
+    padding: 15px 61px;
+    height: 72px;
+    width: 0;
+}
+
+.dia-horario{
+    display: flex;
+    
+}
+
+.dia-column{
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.horario-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.ins-aviso-bottom{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #005eac;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 1px solid #dddddd;
+    background-color: #e7e7e7;
+    width: 88%;
+    height: 60px;
+
+}
+
+.submit-agendar{
+    font-family: 'Roboto', sans-serif;
+    padding: 0.8rem;
+    background: linear-gradient(to left, #499b49, #499b49);
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #205320;
+    transition: all 0.3s ease ;
+}
+
+.submit-agendar:hover{
+    background: linear-gradient(to right, #288116, #288116)
+}
+
+.submit-cancelar{
+    font-family: 'Roboto', sans-serif;
+    padding: 0.8rem;
+    cursor: pointer;
+    color: #333;
+    background-color: #e6e6e6;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #adadad;
+    margin-left: 20px;
+    transition: all 0.3s ease ;
+}
+
+.submit-cancelar:hover{
+    background: linear-gradient(to right, #bdbdbd, #bdbdbd)
+}
+
+/* --------------------------- FOOTER ----------------------------- */
+/* ---------------------------------------------------------------- */
+/* -----------------------↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓---------------------- */
+
+
+.footer {
+    height: 92px;
+    background: #004e90;
+    border-top: 3px solid #E07828;
+    width: 100%;
+}
+
+.container-footer {
+    max-width: 980px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+.brasao-prefeitura-footer {
+    display: flex;
+    align-items: center;
+}
+
+.brasao-prefeitura-footer img {
+    width: 4rem;
+    margin-right: 2rem;
+}
+
+.brasao-prefeitura-footer span {
+    display: flex;
+    color: #FFF;
+    padding: .5rem 1rem;
+    border-left: 2px solid #FFF;
+    font-size: .8rem;
+    align-items: center;
+}
+
+.logo-centropop img {
+    width: 6rem;
+}

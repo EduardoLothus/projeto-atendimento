@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none
+}
+
+body
+
+
+/* ------------------------- MENU TOOLBAR ------------------------- */
+/* ---------------------------------------------------------------- */
+/* -----------------------↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓---------------------- */
+
+.toolbar {
+    top: 0px;
+    height: 49px;
+    background: #fff;
+    padding: .5rem 1rem;
+    width: 100%;
+    z-index: 1;
+}
+
+.toolbar-container {
+    display: flex;
+    max-width: 1360px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brasao-prefeitura-toolbar a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    text-decoration: none;
+}
+
+.brasao-prefeitura-toolbar img {
+    width: 2.1rem;
+}
+
+.brasao-prefeitura-toolbar .p-menu {
+    color: #004e90;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: bolder;
+    font-size: .75rem;
+}
+
+.toolbar-menu {
+    display: flex;
+    align-items: center;
+}
+
+.toolbar-menu a {
+    display: flex;
+    gap: .5rem;
+    text-decoration: none;
+}
+
+.toolbar-menu img {
+    width: 1rem;
+}
+
+.toolbar-menu .p-menu {
+    color: #004e90;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: .75rem;
+}
+
+.brasao-prefeitura-toolbar p {
+    color: #004e90;
+}
+
+.separador {
+    width: 0;
+    height: 20px;
+    border: 1px solid #004e90;
+    margin: 0 1rem 0 1rem;
+}
+
+.toolbar-menu .lupa {
+    width: .7rem;
+}
+
+.toolbar-menu div :hover {
+    opacity: 90%;
+    transition: cubic-bezier(1, 0, 0, 1);
+}
+
+.container-1{
+    margin: 0 auto;
+    margin-bottom: -100px;
+}
+
+.container-1 img{
+    margin-top: 2px;
+    width: 70px;
+    height: 50px;
+}
+
+.toolbar-1 {
+    display: flex;
+    justify-content: center;
+    height: 79px;
+    background: #004e90;
+    padding: .5rem 1rem;
+    border-bottom: 3px solid #E07828;
+    width: 100%;
+}
+
+.toolbar-1 p{
+    margin-top:18px;
+    font-size: 20px;
+    color: white;
+}
+
+.p-menu:hover{
+    color: #E07828;
+}
+
+/* --------------------------- FIM --------------------------------- */
+
+.container-middle{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.painel{
+    margin-top: 50px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    width: 88%;
+    border: 1px solid #004e90;
+    background-color: white;
+
+}
+
+.name-painel{
+    color: white;
+    padding: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    background-color: #004e90;
+    border-bottom: 2px solid #007adf;
+}
+
+.name-painel p{
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255));
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  /* Adicionado: */
+  -webkit-text-fill-color: transparent;
+
+}
+
+.info{
+    display: flex;
+}
+
+
+.info input{
+    width: 250px;
+    outline: none;
+    display: flex;
+    margin-left: 300px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 5px;
+    border: 2px solid #e9e9e9;
+}
+
+.info input:hover{
+    transition: 0.2s;
+    border: 2px solid #999999;
+}
+
+.info button{
+    cursor: pointer;
+    color: white;
+    background-color: #e9e9e9;
+    font-weight: bold;
+    padding: 2px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#btnBusca img{
+    width: 20px;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    cursor: pointer;
+}
+
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    
+    border-bottom: 2px solid #009879;
+}
+
+.op-hover:hover{
+    color: #00775f;
+    transition: 0.1s;
+}
+
+/* --------------------------- FOOTER ----------------------------- */
+/* ---------------------------------------------------------------- */
+/* -----------------------↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓---------------------- */
+
+
+.footer {
+    height: 92px;
+    background: #004e90;
+    border-top: 3px solid #E07828;
+    width: 100%;
+}
+
+.container-footer {
+    max-width: 980px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+.brasao-prefeitura-footer {
+    display: flex;
+    align-items: center;
+}
+
+.brasao-prefeitura-footer img {
+    width: 4rem;
+    margin-right: 2rem;
+}
+
+.brasao-prefeitura-footer span {
+    display: flex;
+    color: #FFF;
+    padding: .5rem 1rem;
+    border-left: 2px solid #FFF;
+    margin-top: 5px;
+    font-size: .8rem;
+    align-items: center;
+}
+
+/*---------------*//*---------------*//*---------------*//*---------------*//*---------------*/
+/*---------------*//*---------------*//*----MODAL------*//*---------------*//*---------------*/
+/*---------------*//*---------------*//*----↓↓↓↓↓------*//*---------------*//*---------------*/
+
+.modal-container {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container.mostrar {
+    display: flex;
+}
+
+.modal {
+    display: flex;
+    background: white;
+    width: 60%;
+    min-width: 300px;
+    padding: 40px;
+    border: 10px solid #009879;
+    box-shadow: 0 0 0 10px #004e90;
+    position: relative;
+}
+
+@keyframes modal {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+
+.mostrar .modal {
+    animation: modal .3s;
+}
+
+.fechar {
+    position: absolute;
+    font-size: 1.2em;
+    top: -44px;
+    right: -40px;
+    width: 46px;
+    height: 41px;
+    border-radius: 50%;
+    border: 4px solid white;
+    background: #e00000;
+    color: white;
+    font-family: "PT Mono", monospace;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.3);
+}
+
+.subtitulo{
+    color: #004e90;
+    margin-bottom: 10px;
+}
+
+.column-info-1{
+    gap: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}

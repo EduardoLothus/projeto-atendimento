@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none
+}
+
+body{
+    background-color: rgb(202, 202, 202);
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ------------------------- MENU TOOLBAR ------------------------- */
+/* ---------------------------------------------------------------- */
+/* -----------------------↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓---------------------- */
+
+.toolbar {
+    top: 0px;
+    height: 49px;
+    background: #fff;
+    padding: .5rem 1rem;
+    border-bottom: 3px solid #E07828;
+    width: 100%;
+    z-index: 1;
+}
+
+.toolbar-container {
+    display: flex;
+    max-width: 980px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brasao-prefeitura-toolbar a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    text-decoration: none;
+}
+
+.brasao-prefeitura-toolbar img {
+    width: 2.1rem;
+}
+
+.brasao-prefeitura-toolbar .p-menu {
+    color: #004e90;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: bolder;
+    font-size: .75rem;
+}
+
+.toolbar-menu {
+    display: flex;
+    align-items: center;
+}
+
+.toolbar-menu a {
+    display: flex;
+    gap: .5rem;
+    text-decoration: none;
+}
+
+.toolbar-menu img {
+    width: 1rem;
+}
+
+.toolbar-menu .p-menu {
+    color: #004e90;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: .75rem;
+}
+
+.brasao-prefeitura-toolbar p {
+    color: #004e90;
+}
+
+.separador {
+    width: 0;
+    height: 20px;
+    border: 1px solid #004e90;
+    margin: 0 1rem 0 1rem;
+}
+
+.toolbar-menu .lupa {
+    width: .7rem;
+}
+
+.toolbar-menu div :hover {
+    opacity: 90%;
+    transition: cubic-bezier(1, 0, 0, 1);
+}
+
+/* --------------------------- FIM --------------------------------- */
+
+.fundo-branco{
+    width: 90%;
+    margin-left: 65px;
+    background-color: white;
+}
+
+/* ------------------------- MENU HEADER ------------------------- */
+/* --------------------------------------------------------------- */
+/* -----------------------↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓--------------------- */
+
+
+.header{
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: #004e90;
+
+}
+
+.header h2{
+    margin-left: 10px;
+}
+
+.menu{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    list-style:none;
+}
+
+.menu li{
+    position:relative;
+
+}    
+
+.menu li a{
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    padding:8px 10px; 
+    display:block;}
+
+.menu li a:hover{
+    border-radius: 2px;
+    background: #004e90;
+    color:#fff;
+}
+
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{
+    margin-top: 3px;
+    display:block;
+    background-color:#0072cf;
+    }
+
+.menu li ul li{
+    margin-top: 2px;
+    display:block;
+    width:150px;
+}
+
+/* --------------------------- FIM --------------------------------- */
+
+
+/* ------------------------- MENU MIDDLE ------------------------- */
+/* --------------------------------------------------------------- */
+/* -----------------------↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓--------------------- */
+
+
+
+
+.container-conteudo{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+.conteudo-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-left-one{
+    margin-top: 15px;
+    margin-left: 55px;
+    border-radius: 9px;
+    color: #856404;
+    padding: 12px 10px 17px 20px;
+    background-color: #ffeeba;
+    font-size: 30px;
+
+}
+.conteudo-left-two{
+    margin-top: 15px;
+    margin-left: 55px;
+    border-radius: 2px;
+    color: #856404;
+    padding: 12px 10px 17px 20px;
+    background-color: #ffeeba;
+    margin-top: 15px;
+    font-size: 15px;
+
+}
+
+.guiches-atendimento{
+    margin-left: 58;
+    background-color: #004e90;
+    padding: 12px 46px 21px 20px;
+    margin-top: 15px;
+    border-radius: 4px;
+    height: 95%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.guiche{
+    padding: 20px 20px 20px 20px;
+    margin-top: 30px;
+    margin-left: 30%;
+    width: 290px;
+    height: 360px;
+    background-color: rgb(245, 245, 245) ;
+    border-radius: 4px;
+    text-align: center !important;
+}
+
+.guiche h3{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.guiche p{
+    font-size: 15.5px;
+}
+
+.botao-indisponivel{
+    margin-top: 85px;
+    color: white;
+    background-color: rgb(153, 153, 153);
+    padding: 16px 40px 16px 40px;
+    border-radius: 5px;
+}
+
+.botao-ocupado{
+    margin-top: 85px;
+    color: white;
+    background-color: rgb(109, 109, 109);
+    padding: 16px 40px 16px 40px;
+    border-radius: 5px;
+}
+
+
+.botao-disponivel{
+    cursor: pointer;
+    margin-top: 85px;
+    color: rgb(0, 0, 0);
+    background-color: #FBB91C;
+    border: 1px solid #ffa33a;
+    padding: 18px 15px 19px 15px;
+    border-radius: 6px;
+}
+
+.botao-disponivel:hover{
+    background: linear-gradient(to right, #ffc132, rgb(255, 195, 56));
+}
+
+/* --------------------------- FOOTER ----------------------------- */
+/* ---------------------------------------------------------------- */
+/* -----------------------↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓---------------------- */
+
+.footer {
+    height: 92px;
+    background: #004e90;
+    border-top: 3px solid #E07828;
+    width: 100%;
+}
+
+.container-footer {
+    max-width: 980px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+.brasao-prefeitura-footer {
+    display: flex;
+    align-items: center;
+}
+
+.brasao-prefeitura-footer img {
+    width: 4rem;
+    margin-right: 2rem;
+}
+
+.brasao-prefeitura-footer span {
+    display: flex;
+    color: #FFF;
+    padding: .5rem 1rem;
+    border-left: 2px solid #FFF;
+    font-size: .8rem;
+    align-items: center;
+}
+
+
+
+
+
